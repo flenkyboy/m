@@ -16,9 +16,9 @@ echo "
 	$---------$--------$
 	
 	\n";
-echo "[o] $$$$$$$$$$ Auto  Story Viewer by Photolooz $$$$$$$$$$$$$$$$$$ [o]\n";
-echo "  $----$----$ Made by 🤑 @mohsanjid 🤑 $----$---$   \n\n";
-echo " Subscribe my Youtube channel $ PhotoLooz $ for more videos --😍
+echo "[o] $$$$$$$$$$ Auto  Story Viewer by flenky_boy $$$$$$$$$$$$$$$$$$ [o]\n";
+echo "  $----$----$ Made by 🤑 @flenky_boy 🤑 $----$---$   \n\n";
+echo " Subscribe my Youtube channel $  $ for more videos --😍
  \n\n";
 
 if($cookie){
@@ -158,13 +158,13 @@ if($cookie){
 				echo "[~] ".count($reels_suc)." story from ".$target." marked as seen\n";
 				echo "[~] ".count($today)." story reacted today\n";
 				echo "[~] ".date('d-m-Y H:i:s')." - Sleep for 30 second to bypass instagram limit\n";
-				echo "[~] "; for($x = 0; $x <= 4; $x++){ echo "========"; sleep(6); } echo "\n\n";
+				echo "[~] "; for($x = 0; $x <= 4; $x++){ echo "========"; sleep(0); } echo "\n\n";
 			}
 			if(count($today) > '1900'){
 				echo "[~] ".count($today)." story reacted today\n";
 				echo "[~] Limit instagram api 2000 seen/day\n";
 				echo "[~] Sleep for 20 hours to bypass instagram limit\n";
-				sleep(72000);
+				sleep(0);
 				echo "[~] End sleep...\n\n";
 			}
 		} while($loop == true);
